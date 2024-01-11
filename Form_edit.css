@@ -1,0 +1,70 @@
+/* Body styles */
+body {
+  background-color: #957977;
+  font-family: Arial, sans-serif;
+}
+
+/* Form styles */
+form {
+  background-color: #b9aaaa;
+  border-radius: 10px;
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 50px auto;
+  max-width: 400px;
+  padding: 20px;
+  
+}
+
+form label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select {
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 20px;
+  width: 100%;
+}
+
+form select {
+  background-color: #f5f5f5;
+}
+
+form input[type="submit"] {
+  background-color: rgba(116, 5, 29, 0.962);
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+
+form input[type="submit"]:hover {
+    background: linear-gradient(to right, #3e1811,#a46161,#3e1811) ;
+  }
+  
+/* For Icon */
+a {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #106223;
+  
+}
+a:hover{
+  background: linear-gradient(to right, #269b33,#1e6e6a,#0c5b0b)
+}

@@ -1,0 +1,67 @@
+/* General styles */
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f8f8f8;
+  }
+  
+  .container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+  }
+  
+  h1 {
+	text-align: center;
+	margin-top: 0;
+  }
+  
+  form {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  label {
+	margin-top: 10px;
+	font-weight: bold;
+  }
+  
+  input,
+  textarea {
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	font-size: 16px;
+  }
+  
+  button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+	background-color: #3e8e41;
+  }
+  
+  /* Responsive styles */
+  
+  @media screen and (max-width: 600px) {
+	.container {
+	  padding: 10px;
+	}
+  
+	input,
+	textarea {
+	  font-size: 14px;
+	}
+  }
+  
